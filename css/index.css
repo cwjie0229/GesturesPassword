@@ -1,0 +1,37 @@
+/* */
+*{  margin:0;  padding:0;  border:none;  font-size:1.5625vw;  font-family: "΢���ź�", "Microsoft Yahei", tahoma, arial, "Hiragino Sans GB";
+}
+html,body{  height:100%;
+    overflow: hidden;
+    text-align: center;
+}
+/* page  bg*/
+.page{  position: absolute;  width:100%;  height:100%;  }
+.page > .bg{  position: absolute;  height:100%;  width:100%;  z-index:-1;  }
+/*page1*/
+#page1{  display:block;  }
+#page1 > .bg{  background: #F0F0F2;  background-size:100%;  }
+#page1 > .p1_lantern{  position: absolute;  top:-3.4%;  right:0;  left:0;  margin:auto; color:#fff; ) no-repeat center bottom;  background-size:100%;  width:45vw;  height:71.2vh;  font-size:3.506rem;  padding-top:31vh;  text-align: center;  -webkit-box-sizing:border-box;  -moz-box-sizing:border-box;  -ms-box-sizing:border-box;  -o-box-sizing:border-box;  box-sizing:border-box;  }
+.title{
+    margin:13px 0;
+    font-size:14px;
+}
+.radio {
+    position: relative;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.radio label {
+    min-height: 20px;
+    padding-left: 20px;
+    margin-bottom: 0;
+    font-weight: 400;
+    cursor: pointer;
+    font-size: 16px;
+}
+.radio input[type=radio], .radio-inline input[type=radio] {
+
+    margin-top: 4px\9;
+    margin-left: -20px;
+}
